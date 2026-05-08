@@ -1,0 +1,22 @@
+# Environments
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Raw Data (Do NOT upload your training data to the API server)
+*.csv
+*.xlsx
+*.xls
+
+# Note: We are specifically NOT ignoring .pkl files here 
+# because Render needs the model artifacts to run the predictions!
